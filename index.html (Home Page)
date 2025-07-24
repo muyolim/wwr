@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whitewater Rafting Adventures | Home</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Georgia:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Whitewater Rafting Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Experience the Thrill of Whitewater Rafting</h1>
+      <p>Join us for unforgettable adventures with family and friends.</p>
+      <a href="trips.html" class="cta-button">View Trips</a>
+    </section>
+
+    <section class="highlights">
+      <h2>Why Choose Us?</h2>
+      <div class="highlight-grid">
+        <div>
+          <h3>Expert Guides</h3>
+          <p>Our experienced and certified guides ensure your safety and fun.</p>
+        </div>
+        <div>
+          <h3>Variety of Trips</h3>
+          <p>From calm family rides to thrilling rapids, we have something for everyone.</p>
+        </div>
+        <div>
+          <h3>Beautiful Locations</h3>
+          <p>Discover breathtaking landscapes while riding the rapids.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Whitewater Rafting Adventures | Follow us on <a href="#">Instagram</a> & <a href="#">Facebook</a></p>
+  </footer>
+</body>
+</html>

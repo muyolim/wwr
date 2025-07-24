@@ -1,0 +1,99 @@
+/* ✅ Color variables */
+:root {
+  --primary-color: #004080;
+  --secondary-color: #0080ff;
+  --accent1-color: #ffffff;
+  --accent2-color: #f0f0f0;
+}
+
+/* Basic reset & font */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--accent2-color);
+}
+
+/* ✅ Header/nav */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding: 10px;
+}
+
+header img.logo {
+  height: 60px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a.active {
+  text-decoration: underline;
+}
+
+/* ✅ Hero positioning */
+.hero {
+  position: relative;
+}
+
+.hero img.hero-img {
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+}
+
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 15px;
+  max-width: 300px;
+}
+
+.hero article img {
+  float: right;
+  /* ✅ floated image */
+  width: 100px;
+  margin-left: 10px;
+}
+
+/* ✅ Adventure images */
+section img {
+  width: 180px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+/* ✅ Footer */
+footer {
+  text-align: center;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  /* ✅ remove underline from icons */
+  margin: 0 5px;
+}
+
+footer img {
+  width: 30px;
+  vertical-align: middle;
+}
