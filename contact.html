@@ -3,13 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us | Whitewater Rafting Adventures</title>
+  <title>Contact Us | White Water Rafting Co.</title>
   <link rel="stylesheet" href="styles/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Georgia:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <!-- ✅ Header with Grid Layout -->
   <header>
-    <img src="images/logo.png" alt="Whitewater Rafting Logo" class="logo">
+    <img src="images/logo.png" alt="White Water Rafting Logo" class="logo">
+    <h1>White Water Rafting Co.</h1>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -22,10 +27,11 @@
 
   <main>
     <section class="page-header">
-      <h1>Contact Us</h1>
+      <h2>Contact Us</h2>
       <p>We’d love to hear from you! Fill out the form below or reach us through the details provided.</p>
     </section>
 
+    <!-- ✅ Contact Form -->
     <section class="contact-form">
       <form>
         <label for="name">Name:</label>
@@ -35,15 +41,22 @@
         <input type="email" id="email" name="email" required>
 
         <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4"></textarea>
+        <textarea id="message" name="message" rows="4" required></textarea>
 
         <button type="submit">Send Message</button>
       </form>
     </section>
   </main>
 
+  <!-- ✅ Footer with Social Icons -->
   <footer>
-    <p>© 2025 Whitewater Rafting Adventures</p>
+    <p>&copy; 2025 White Water Rafting Co. | Daniel Mukonda</p>
+    <div class="social">
+      <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+      <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+      <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+    </div>
   </footer>
+
 </body>
 </html>
